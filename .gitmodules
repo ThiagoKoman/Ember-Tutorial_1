@@ -1,0 +1,3 @@
+[submodule "super-rentals"]
+	path = super-rentals
+	url = ./super-rentals

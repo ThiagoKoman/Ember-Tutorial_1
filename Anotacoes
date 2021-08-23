@@ -1,1 +1,24 @@
-Anotações
+Instalando ember CLI:
+    npm install -g ember-cli
+
+Criando o projeto da introdução:
+    ember new super-rentals --lang en
+
+Iniciando o projeto:
+    cd super-rentals   
+    ember s
+
+Para criar arquivos de template:
+    ember generate template index
+
+Adicionando os testes automatizados 
+    ember generate acceptance-test super-rentals
+
+Para criar um componente é utilizado o seguinte comando:
+    ember generate component jumbo
+    - Assim como as tags HTML regulares, é comum passar conteúdo para componentes, como <Jumbo> algum conteúdo </Jumbo>. Podemos habilitar isso usando a palavra-chave {{yield}}, que será substituída pelo conteúdo que foi passado para o componente.
+
+A palavra-chave {{outlet}} denota o lugar onde as páginas de nosso site devem ser processadas, semelhante à palavra-chave {{yield}}.
+
+Última página lida
+https://guides.emberjs.com/release/tutorial/part-1/component-basics/
